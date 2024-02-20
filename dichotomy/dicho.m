@@ -1,6 +1,6 @@
 function [x,n] = dicho(f, a, b, e)
 
-    % we will be using annonymos function instead of inline
+    % we will be using anonymous function instead of inline
     % since it's going to be deprecated soon
 
     fx = @(x) eval(f);
