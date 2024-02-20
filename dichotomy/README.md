@@ -33,3 +33,18 @@ fn main() {
     println!("Solution: {}\nNumber of iterations: {}", x, n);
 }
 ```
+
+### go
+
+```go
+func main() {
+	// Define the function
+	f := func(x float64) float64 {
+		return x*x - 4
+	}
+
+	x, n := Dicho(f, 0, 3, 0.000001)
+
+	fmt.Printf("Solution: %f\nNumber of iterations: %d\n", x, n)
+}
+```
